@@ -6,7 +6,7 @@ IncidentIQ is an intelligent IT incident analysis platform that helps support en
 Users can create incidents with title, description, category, subcategory, affected service, priority, and status. Incident numbers are generated automatically, while root cause and resolution remain empty until investigation is completed.
 
 2. Historical Incident Dataset
-The project uses more than 1,500 realistic synthetic IT incident records containing services, priorities, statuses, detailed root causes, and resolutions. This data supports correlation, RCA, ML prediction, recommendations, and pattern detection.
+The project uses more than 34,500 realistic synthetic IT incident records containing services, priorities, statuses, detailed root causes, and resolutions. This data supports correlation, RCA, ML prediction, recommendations, and pattern detection.
 
 3. Semantic Incident Correlation
 IncidentIQ uses the SentenceTransformer all-MiniLM-L6-v2 model to convert incident text into embeddings. Cosine similarity compares the new incident with historical incidents and returns the strongest matches with similarity percentages.
