@@ -8,7 +8,7 @@ Users can create incidents with title, description, category, subcategory, affec
 2. Historical Incident Dataset
 The project uses more than 34,500 realistic synthetic IT incident records containing services, priorities, statuses, detailed root causes, and resolutions. This data supports correlation, RCA, ML prediction, recommendations, and pattern detection.
 
-3. Semantic Incident Correlation
+3. Semantic Incident Correlation 
 IncidentIQ uses the SentenceTransformer all-MiniLM-L6-v2 model to convert incident text into embeddings. Cosine similarity compares the new incident with historical incidents and returns the strongest matches with similarity percentages.
 
 4. Root Cause Analysis
