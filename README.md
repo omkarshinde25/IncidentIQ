@@ -35,3 +35,4 @@ Backend: Python, FastAPI, Uvicorn, Pydantic
 Database: SQLite, SQLAlchemy
 AI/ML: SentenceTransformers, all-MiniLM-L6-v2, Embeddings, Cosine Similarity, NumPy, TF-IDF, Logistic Regression, scikit-learn, Joblib
 Testing: Pytest and Swagger UI
+
